@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Which of the component below used to perform main computation in computers?",
+        "answerChoices": [
+            "RAM",
+            "ROM",
+            "CPU",
+            "GPU"
+        ]
+    },
+    {
+        "title": "What does 'RAM' stand for?",
+        "answerChoices": [
+            "Randomly Allocated Memory",
+            "Resources and Asset Management",
+            "Read Only Memory",
+            "Random Access Memory"
+        ]
+    },
+    {
+        "title": "What GPU does?",
+        "answerChoices": [
+            "Draws graphical output on the screen",
+            "Stores temporary data for computation",
+            "Computes Logic and Mathematical Operation",
+            "Stores permanent user data"
+        ]
+    },
+    {
+        "title": "What is the primary building block of all microchips?",
+        "answerChoices": [
+            "Capacitor",
+            "Transistor",
+            "Logic Gate",
+            "Resistor"
+        ]
+    },
+    {
+        "title": "What is the smallest unit of information in computation?",
+        "answerChoices": [
+            "Byte",
+            "Bit",
+            "KB",
+            "GB"
+        ]
+    }
+]

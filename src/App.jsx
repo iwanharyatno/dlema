@@ -4,16 +4,11 @@ import Navbar from './components/Navbar';
 import Button from './components/Button';
 import Questions from './components/questions/Questions';
 
-const problems = [
-    {
-        title: 'Where do we live?',
-        answerChoices: ['On a Rocky planet named Earth', 'In the interstellar space', 'In the asteroids belt', 'In the core of the Sun']
-    },
-];
+import problems from './resources/problems.json';
 
 class App extends React.Component {
     state = {
-        quizStarted: true
+        quizStarted: false
     }
 
     startQuiz = () => {
@@ -25,7 +20,7 @@ class App extends React.Component {
         if (this.state.quizStarted) {
             return (
                 <div>
-                    <Navbar text="DLEMA"/>
+                    <Navbar text="Dlema"/>
                     <Questions problems={problems}/>
                 </div>
             );

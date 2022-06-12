@@ -24,7 +24,11 @@ class Questions extends React.Component {
 
     saveAnswer = (index) => {
         const answers = this.state.answers;
-        answers.push(index);
+        if (answers[this.state.questionIndex] == undefined) {
+            answers.push(index);
+        } else {
+            answers[this.state.questionIndex] = index;
+        }
 
         this.setState({
             questionIndex: this.state.questionIndex,
