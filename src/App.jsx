@@ -22,14 +22,6 @@ class App extends React.Component {
         });
     }
 
-    restart = () => {
-        this.setState({
-            quizStarted: false,
-            quizFinished: false,
-            accuration: 0
-        });
-    }
-
     finish = (accuration) => {
         this.setState({
             quizStarted: false,
@@ -61,7 +53,7 @@ class App extends React.Component {
                     <div className="p-4 text-center md:max-w-[50%] mx-auto">
                         <h1 className="mb-3 text-3xl">Your Accuration:</h1>
                         <div className={accurationColor + ' font-bold p-4 text-5xl mb-5'}>{this.state.accuration}%</div>
-                        <Button text="Play Again" onClick={this.restart}/>
+                        <Button text="Play Again" onClick={this.start}/>
                     </div>
                 </div>
             );
