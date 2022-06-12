@@ -10,8 +10,8 @@ import correctAnswers from './resources/correct-answers.json';
 class App extends React.Component {
     state = {
         quizStarted: false,
-        quizFinished: true,
-        accuration: 100
+        quizFinished: false,
+        accuration: 0
     }
 
     start = () => {
