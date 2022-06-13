@@ -5,7 +5,6 @@ import Button from './components/Button';
 import Questions from './components/questions/Questions';
 
 import problems from './resources/problems.json';
-import correctAnswers from './resources/correct-answers.json';
 
 class App extends React.Component {
     state = {
@@ -35,7 +34,7 @@ class App extends React.Component {
             return (
                 <div>
                     <Navbar text="Dlema" />
-                    <Questions problems={problems} correctAnswers={correctAnswers} onFinish={this.finish} />
+                    <Questions problems={problems} onFinish={this.finish} />
                 </div>
             );
         }

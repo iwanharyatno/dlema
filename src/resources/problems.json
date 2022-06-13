@@ -6,7 +6,8 @@
             "ROM",
             "CPU",
             "GPU"
-        ]
+        ],
+        "correctAnswer": 2
     },
     {
         "title": "What does 'RAM' stand for?",
@@ -15,7 +16,8 @@
             "Resources and Asset Management",
             "Read Only Memory",
             "Random Access Memory"
-        ]
+        ],
+        "correctAnswer": 3
     },
     {
         "title": "What GPU does?",
@@ -24,7 +26,8 @@
             "Stores temporary data for computation",
             "Computes Logic and Mathematical Operation",
             "Stores permanent user data"
-        ]
+        ],
+        "correctAnswer": 0
     },
     {
         "title": "What is the primary building block of all microchips?",
@@ -33,7 +36,8 @@
             "Transistor",
             "Logic Gate",
             "Resistor"
-        ]
+        ],
+        "correctAnswer": 1
     },
     {
         "title": "What is the smallest unit of information in computation?",
@@ -42,6 +46,8 @@
             "Bit",
             "KB",
             "GB"
-        ]
+        ],
+        "correctAnswer": 1
+
     }
 ]

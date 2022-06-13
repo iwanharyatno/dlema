@@ -43,10 +43,10 @@ class Questions extends React.Component {
     computeAccuration = () => {
         let points = 0;
         this.state.answers.map((answer, index) => {
-            if (this.props.correctAnswers[index] === answer) points++;
+            if (this.props.problems[index].correctAnswer === answer) points++;
         });
 
-        const accuration = points * 100 / this.props.correctAnswers.length;
+        const accuration = points * 100 / this.props.problems.length;
         this.props.onFinish(accuration);
     }
 
